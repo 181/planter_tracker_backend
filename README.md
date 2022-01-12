@@ -9,6 +9,7 @@
 - run `php artisan serve` to start the backend server as e.g. http://127.0.0.1:8000
 
 [Caveats]
+- Ideally should create a seperate branch for development, pushed all changes to master directly here just for keeping the test simple purpose.
 - If met with "Class 'Facade\Ignition\IgnitionServiceProvider' not found" as I did when migrate tables, run `composer dumpautoload` solved the issue.
 - if met with "League\Flysystem\Exception Impossible to create the root directory" error, run 'php artisan storage:link' solved the issue
 
