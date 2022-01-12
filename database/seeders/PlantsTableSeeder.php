@@ -16,7 +16,7 @@ class PlantsTableSeeder extends Seeder
     public function run()
     {
         for ($i=1; $i <= 12; $i++) { 
-        	$name = 'plant_' . $i;
+        	$name = 'plant_' . $i . '.jpg';
             
             Plant::create([
                 'plant_name' => $name,
