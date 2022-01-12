@@ -19,6 +19,9 @@ use App\Http\Controllers\api\PlantTrackerController;
 //     return $request->user();
 // });
 
+/**
+ * Ignored auth check here as asked
+ */
 Route::get('/plants', [PlantTrackerController::class, 'index']);
 
 Route::post('/plants', [PlantTrackerController::class, 'store']);
