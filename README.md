@@ -1,7 +1,4 @@
 ## Setup Procedures
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
 - clone this repo to local 
 - duplicate .env.example file, rename as .env, put your local mysql credits in, add database to your local mysql
 - cd into repo root directy
